@@ -1,11 +1,15 @@
 {
-    "name": "express-template-HelloWorld",
-    "description": "Hello World Node Express web application",
-    "version": "0.0.1",
-    "private": true,
-    "dependencies": {
-        "body-parser": "^1.18.2",
-        "express": "latest",
-        "pug": "^2.0.0-rc.4"
-    }
+  "name": "express-template-HelloWorld",
+  "description": "Hello World Node Express web application",
+  "version": "0.0.1",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "latest",
+    "pug": "^2.0.0-rc.4"
+  }
 }
